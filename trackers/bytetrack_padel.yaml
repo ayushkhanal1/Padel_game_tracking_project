@@ -1,0 +1,10 @@
+# ByteTrack settings tuned for small, intermittent padel ball/racket detections.
+# Lower thresholds keep weak detections alive; the tradeoff is more false tracks.
+
+tracker_type: bytetrack
+track_high_thresh: 0.10
+track_low_thresh: 0.02
+new_track_thresh: 0.08
+track_buffer: 90
+match_thresh: 0.75
+fuse_score: True

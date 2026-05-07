@@ -1,0 +1,12 @@
+shot_id,shot_type,timestamp,frame,player_track_id,player_side,event_confidence,ball_track_id,nearest_racket_track_id
+1,serve_or_smash,0.7,21,4,near,0.4973,43,29
+2,serve_or_smash,1.3,39,69,near,0.652,78,79
+3,forehand,1.733,52,81,near,0.6072,93,96
+4,forehand,2.133,64,81,near,0.6662,99,96
+5,serve_or_smash,2.533,76,82,near,0.509,109,
+6,serve_or_smash,3.5,105,139,near,0.5477,138,143
+7,backhand,4.3,129,3,far,0.3254,172,
+8,backhand,9.167,275,236,far,0.7373,303,300
+9,forehand,15.3,459,176,far,0.5437,445,443
+10,forehand,15.7,471,176,far,0.3458,452,
+11,serve_or_smash,17.367,521,1,far,0.2594,484,

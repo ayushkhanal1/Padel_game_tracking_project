@@ -1,0 +1,445 @@
+{
+  "metadata": {
+    "source": "D:\\internship_task\\data\\raw\\input_video.mp4",
+    "model": "yolo11s.pt",
+    "tracker": "bytetrack.yaml",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "frame_count": 604,
+    "duration_seconds": 20.133,
+    "target_classes": [
+      "ball",
+      "person",
+      "racket"
+    ],
+    "detections_count": 6687
+  },
+  "phase2_summary": {
+    "shot_count": 11,
+    "shot_type_counts": {
+      "serve_or_smash": 5,
+      "forehand": 4,
+      "backhand": 2
+    },
+    "static_ball_track_ids_removed": [
+      11,
+      114,
+      523
+    ],
+    "dynamic_ball_frames": 35,
+    "ball_track_stats": {
+      "11": {
+        "frames": 32,
+        "range_x": 0.395,
+        "range_y": 0.18,
+        "displacement": 0.3606,
+        "max_speed": 0.0559,
+        "mean_confidence": 0.396
+      },
+      "43": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.6786
+      },
+      "65": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.5542
+      },
+      "78": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.6937
+      },
+      "93": {
+        "frames": 4,
+        "range_x": 1.045,
+        "range_y": 0.23,
+        "displacement": 1.0604,
+        "max_speed": 1.0212,
+        "mean_confidence": 0.6556
+      },
+      "99": {
+        "frames": 5,
+        "range_x": 8.475,
+        "range_y": 8.17,
+        "displacement": 11.7718,
+        "max_speed": 5.3542,
+        "mean_confidence": 0.5187
+      },
+      "109": {
+        "frames": 4,
+        "range_x": 2.56,
+        "range_y": 2.27,
+        "displacement": 2.6187,
+        "max_speed": 3.194,
+        "mean_confidence": 0.7687
+      },
+      "114": {
+        "frames": 400,
+        "range_x": 0.63,
+        "range_y": 0.67,
+        "displacement": 0.4602,
+        "max_speed": 0.2546,
+        "mean_confidence": 0.3915
+      },
+      "118": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.3459
+      },
+      "134": {
+        "frames": 4,
+        "range_x": 6.04,
+        "range_y": 10.525,
+        "displacement": 12.135,
+        "max_speed": 4.3561,
+        "mean_confidence": 0.7711
+      },
+      "138": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.3752
+      },
+      "150": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.6872
+      },
+      "168": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.4631
+      },
+      "172": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.5139
+      },
+      "303": {
+        "frames": 3,
+        "range_x": 1.085,
+        "range_y": 0.32,
+        "displacement": 1.1112,
+        "max_speed": 0.6756,
+        "mean_confidence": 0.512
+      },
+      "445": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.5678
+      },
+      "452": {
+        "frames": 1,
+        "range_x": 0.0,
+        "range_y": 0.0,
+        "displacement": 0.0,
+        "max_speed": 0.0,
+        "mean_confidence": 0.4673
+      },
+      "484": {
+        "frames": 5,
+        "range_x": 2.01,
+        "range_y": 2.115,
+        "displacement": 2.9178,
+        "max_speed": 0.9705,
+        "mean_confidence": 0.4068
+      },
+      "523": {
+        "frames": 53,
+        "range_x": 1.025,
+        "range_y": 1.055,
+        "displacement": 1.2978,
+        "max_speed": 0.3214,
+        "mean_confidence": 0.4211
+      }
+    },
+    "parameters": {
+      "event_gap": 8,
+      "neighbor_window": 2,
+      "max_player_distance": 190.0,
+      "max_racket_distance": 150.0
+    }
+  },
+  "summary": {
+    "total_shots": 11,
+    "duration_seconds": 20.133,
+    "shot_rate_per_minute": 32.782,
+    "avg_event_confidence": 0.5174,
+    "shot_type_counts": {
+      "serve_or_smash": 5,
+      "forehand": 4,
+      "backhand": 2
+    },
+    "player_side_counts": {
+      "near": 6,
+      "far": 5
+    },
+    "player_track_counts": {
+      "4": 1,
+      "69": 1,
+      "81": 2,
+      "82": 1,
+      "139": 1,
+      "3": 1,
+      "236": 1,
+      "176": 2,
+      "1": 1
+    }
+  },
+  "shot_counts": [
+    {
+      "shot_type": "backhand",
+      "count": 2
+    },
+    {
+      "shot_type": "forehand",
+      "count": 4
+    },
+    {
+      "shot_type": "serve_or_smash",
+      "count": 5
+    }
+  ],
+  "player_summary": [
+    {
+      "player_track_id": "176",
+      "total_shots": 2,
+      "forehand": 2,
+      "backhand": 0,
+      "serve_or_smash": 0,
+      "unknown": 0,
+      "near_side_shots": 0,
+      "far_side_shots": 2,
+      "avg_event_confidence": 0.4447
+    },
+    {
+      "player_track_id": "81",
+      "total_shots": 2,
+      "forehand": 2,
+      "backhand": 0,
+      "serve_or_smash": 0,
+      "unknown": 0,
+      "near_side_shots": 2,
+      "far_side_shots": 0,
+      "avg_event_confidence": 0.6367
+    },
+    {
+      "player_track_id": "1",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 0,
+      "serve_or_smash": 1,
+      "unknown": 0,
+      "near_side_shots": 0,
+      "far_side_shots": 1,
+      "avg_event_confidence": 0.2594
+    },
+    {
+      "player_track_id": "139",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 0,
+      "serve_or_smash": 1,
+      "unknown": 0,
+      "near_side_shots": 1,
+      "far_side_shots": 0,
+      "avg_event_confidence": 0.5477
+    },
+    {
+      "player_track_id": "236",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 1,
+      "serve_or_smash": 0,
+      "unknown": 0,
+      "near_side_shots": 0,
+      "far_side_shots": 1,
+      "avg_event_confidence": 0.7373
+    },
+    {
+      "player_track_id": "3",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 1,
+      "serve_or_smash": 0,
+      "unknown": 0,
+      "near_side_shots": 0,
+      "far_side_shots": 1,
+      "avg_event_confidence": 0.3254
+    },
+    {
+      "player_track_id": "4",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 0,
+      "serve_or_smash": 1,
+      "unknown": 0,
+      "near_side_shots": 1,
+      "far_side_shots": 0,
+      "avg_event_confidence": 0.4973
+    },
+    {
+      "player_track_id": "69",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 0,
+      "serve_or_smash": 1,
+      "unknown": 0,
+      "near_side_shots": 1,
+      "far_side_shots": 0,
+      "avg_event_confidence": 0.652
+    },
+    {
+      "player_track_id": "82",
+      "total_shots": 1,
+      "forehand": 0,
+      "backhand": 0,
+      "serve_or_smash": 1,
+      "unknown": 0,
+      "near_side_shots": 1,
+      "far_side_shots": 0,
+      "avg_event_confidence": 0.509
+    }
+  ],
+  "timeline": [
+    {
+      "shot_id": 1,
+      "timestamp": 0.7,
+      "frame": 21,
+      "shot_type": "serve_or_smash",
+      "player_track_id": "4",
+      "player_side": "near",
+      "event_confidence": 0.4973,
+      "seconds_since_previous": null
+    },
+    {
+      "shot_id": 2,
+      "timestamp": 1.3,
+      "frame": 39,
+      "shot_type": "serve_or_smash",
+      "player_track_id": "69",
+      "player_side": "near",
+      "event_confidence": 0.652,
+      "seconds_since_previous": 0.6
+    },
+    {
+      "shot_id": 3,
+      "timestamp": 1.733,
+      "frame": 52,
+      "shot_type": "forehand",
+      "player_track_id": "81",
+      "player_side": "near",
+      "event_confidence": 0.6072,
+      "seconds_since_previous": 0.433
+    },
+    {
+      "shot_id": 4,
+      "timestamp": 2.133,
+      "frame": 64,
+      "shot_type": "forehand",
+      "player_track_id": "81",
+      "player_side": "near",
+      "event_confidence": 0.6662,
+      "seconds_since_previous": 0.4
+    },
+    {
+      "shot_id": 5,
+      "timestamp": 2.533,
+      "frame": 76,
+      "shot_type": "serve_or_smash",
+      "player_track_id": "82",
+      "player_side": "near",
+      "event_confidence": 0.509,
+      "seconds_since_previous": 0.4
+    },
+    {
+      "shot_id": 6,
+      "timestamp": 3.5,
+      "frame": 105,
+      "shot_type": "serve_or_smash",
+      "player_track_id": "139",
+      "player_side": "near",
+      "event_confidence": 0.5477,
+      "seconds_since_previous": 0.967
+    },
+    {
+      "shot_id": 7,
+      "timestamp": 4.3,
+      "frame": 129,
+      "shot_type": "backhand",
+      "player_track_id": "3",
+      "player_side": "far",
+      "event_confidence": 0.3254,
+      "seconds_since_previous": 0.8
+    },
+    {
+      "shot_id": 8,
+      "timestamp": 9.167,
+      "frame": 275,
+      "shot_type": "backhand",
+      "player_track_id": "236",
+      "player_side": "far",
+      "event_confidence": 0.7373,
+      "seconds_since_previous": 4.867
+    },
+    {
+      "shot_id": 9,
+      "timestamp": 15.3,
+      "frame": 459,
+      "shot_type": "forehand",
+      "player_track_id": "176",
+      "player_side": "far",
+      "event_confidence": 0.5437,
+      "seconds_since_previous": 6.133
+    },
+    {
+      "shot_id": 10,
+      "timestamp": 15.7,
+      "frame": 471,
+      "shot_type": "forehand",
+      "player_track_id": "176",
+      "player_side": "far",
+      "event_confidence": 0.3458,
+      "seconds_since_previous": 0.4
+    },
+    {
+      "shot_id": 11,
+      "timestamp": 17.367,
+      "frame": 521,
+      "shot_type": "serve_or_smash",
+      "player_track_id": "1",
+      "player_side": "far",
+      "event_confidence": 0.2594,
+      "seconds_since_previous": 1.667
+    }
+  ]
+}
