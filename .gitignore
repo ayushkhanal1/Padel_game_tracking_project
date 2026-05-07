@@ -16,6 +16,8 @@ data/raw/*
 data/_work/*
 !data/_work/.gitkeep
 data/labeling/images/*
+data
+data/final/*
 
 models/*.pt
 models/*.onnx
