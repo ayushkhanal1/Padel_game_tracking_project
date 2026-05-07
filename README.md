@@ -89,7 +89,8 @@ Finally, the pipeline exports predictions to CSV and JSON, creates shot-count
 analytics, renders a dashboard image, and packages the annotated demo video into
 `data/final/`.
 
--Challenges
+-Challenges:
+
 Padel footage can make small-object detection difficult. The ball and racket are
 small, fast, and often blurred, while wide camera angles create occlusion and
 many background objects. A pretrained general-purpose YOLO model can provide a
@@ -99,7 +100,8 @@ Track IDs can also switch when players overlap, move quickly, or leave the frame
 Because the current prototype uses nearest-neighbor geometry for player
 assignment, a missed racket or ball detection can affect the final shot label.
 
--Improvements
+-Improvements:
+
 The most useful next improvement would be a small custom labeled dataset for
 padel ball and racket detection. Fine-tuning YOLO on that data would reduce
 missed detections and false positives. A second improvement would be temporal
