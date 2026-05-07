@@ -89,6 +89,14 @@ Finally, the pipeline exports predictions to CSV and JSON, creates shot-count
 analytics, renders a dashboard image, and packages the annotated demo video into
 `data/final/`.
 
+
+## Setup Explanation
+-Install dependencies with `python -m pip install -r requirements.txt`
+-Place your padel video at `data/raw/input_video.mp4`
+-Run the full pipeline with `python -m src.run_pipeline` 
+-The script detects and tracks players, rackets, and the ball, extracts shot events, classifies them into `forehand`, `backhand`, or `serve_or_smash`, and writes the final demo video, JSON/CSV predictions, and analytics files to `data/final/`.
+
+
 -Challenges:
 
 Padel footage can make small-object detection difficult. The ball and racket are
